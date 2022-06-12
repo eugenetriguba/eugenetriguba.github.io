@@ -1,0 +1,5 @@
+# Pelican
+/output
+
+# Python
+__pycache__

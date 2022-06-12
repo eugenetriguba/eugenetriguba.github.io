@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "personal-site"
+version = "0.1.0"
+description = ""
+authors = ["Eugene Triguba <eugenetriguba@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pelican = { version = "^4.7.2", extras = ["markdown"] }
+invoke = "^1.7.1"
+livereload = "^2.6.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
