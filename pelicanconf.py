@@ -3,6 +3,8 @@ SITENAME = 'Eugene Triguba'
 SITEURL = 'https://eugenetriguba.com'
 
 PATH = 'content'
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 TIMEZONE = 'America/Chicago'
 FILENAME_METADATA = '(?P<title>.*)'
