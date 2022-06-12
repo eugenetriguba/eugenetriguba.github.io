@@ -9,6 +9,7 @@ python = "^3.10"
 pelican = { version = "^4.7.2", extras = ["markdown"] }
 invoke = "^1.7.1"
 livereload = "^2.6.3"
+ghp-import = "^2.1.0"
 
 [tool.poetry.dev-dependencies]
 
