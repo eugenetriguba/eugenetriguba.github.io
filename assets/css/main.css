@@ -1,0 +1,64 @@
+@import url("normalize.css");
+@import url("../fonts/inter/font.css");
+
+:root {
+  --black: #000;
+  --dark-grey: #373737;
+  --light-grey: #979797;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.3125rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2.652rem;
+  --font-size-4xl: 4rem;
+}
+
+html {
+  font-size: 20px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  color: #373737;
+  font-weight: 400;
+  margin: 2rem 1.5rem 0 1.5rem;
+}
+
+body {
+  max-width: 1024px;
+}
+
+a {
+  color: var(--light-grey);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--dark-grey);
+  transition: all ease-in-out 0.3s;
+}
+
+h1 {
+  font-size: var(--font-size-xl);
+}
+
+h2 {
+  font-size: var(--font-size-lg);
+}
+
+p {
+  margin: 16px 0;
+}
+
+.site-content {
+  max-width: 680px;
+}
+
+.site-footer {
+  padding-top: 2rem;
+}
+
+.site-footer-heading {
+  color: var(--black);
+}
